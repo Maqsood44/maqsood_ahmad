@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maqsood's Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian&family=Playfair+Display+SC:wght@700&family=Roboto+Condensed:wght@700&display=swap"rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #112240;
+    }
+
+    /* fonts */
+    .nav-link:hover,
+    .active {
+      color: #ddf03e !important;
+      border: none;
+      border-radius: 10px;
+    }
+
+    .btn-outline-secondary:hover {
+      background-color: #ddf03e;
+      color: #112240 !important;
+      border: none;
+    }
+
+    /* this css used to draw a thin line under the of every section */
+    .heading::after {
+      content: '';
+      position: absolute;
+      top: calc(100% + 1rem);
+      height: 5px;
+      width: 3rem;
+      background: #ddf03e;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body style="background-color: #112240;">
+  <!-- **************************************************** -->
+  <!-- NAVBAR START` -->
+  <nav class="navbar navbar-expand-lg position-sticky shadow"data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000"
+    style="z-index: 99999; background-color: #0a192f; top:0; left: 0; ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="Logo" width="100%" height="44"></a>
+      <button class="navbar-toggler" style="background-color: #ddf03e;" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item ms-lg-4 border-sm-bottom-1">
+            <a class="nav-link active" style="color: #e6f1ff;" href="#">Home</a>
+          </li>
+          <li class="nav-item ms-lg-4 border-md-bottom-1">
+            <a class="nav-link" style="color: #e6f1ff;" href="#project">Projects</a>
+          </li>
+          <li class="nav-item ms-lg-4 border-md-bottom-1">
+            <a class="nav-link" style="color: #e6f1ff;" href="#about">About</a>
+          </li>
+          <li class="nav-item ms-lg-4 border-md-bottom-1">
+            <a class="nav-link" style="color: #e6f1ff;" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <button type="button" class="btn btn-outline-secondary ms-lg-4 fs-5" style="  height: 50px;
+        width: 150px; color: #ddf03e; border-color: #ddf03e;">Download CV</button>
+      </div>
+    </div>
+  </nav>
+  <!-- NAVBAR END` -->
+  <!-- **************************************************** -->
+
+  <!-- **************************************************** -->
+  <!-- HERO SECTION START` -->
+  <main class="d-flex justify-content-center align-items-center" style="background: linear-gradient(to bottom, rgba(10,25,47,0.5), rgba(17,34,64,0.3)), url('images/banner.jpg'); background-size: cover;">
+    <div class="container col-xxl-8 px-4 py-2"  data-aos="fade-up">
+      <div class="row d-flex flex-lg-row-reverse align-items-center g-5 py-5 justify-content-center ">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="images/My photo 1.png" class="d-block mx-lg-auto img-fluid " alt="my-photo" width="700" height="500"
+            loading="lazy">
+        </div>
+        <div class="col-lg-6 text-center">
+          <h1 class="fs-2" style="color: #e6f1ff; font-family: 'Noto Serif Georgian', serif;">HEY, I'M</h1>
+          <h1 class="fs-1 fw-bold" style="font-family: 'Noto Serif Georgian', serif; color: #ddf03e;">MAQSOOD AHMAD<h1>
+              <p class="lead my-3" style="color: #e6f1ff;">A Frontend focused Web Developer building the Frontend of
+                Websites that leads to the success of the overall product.</p>
+              <button type="button" class="btn btn-primary btn-lg border-0 fs-3 w-50"
+                style="color: #0a192f; background-color: #ddf03e;">Hire Me</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+
+  <!-- HERO SECTION END` -->
+  <!-- **************************************************** -->
+
+  <!-- **************************************************** -->
+  <!-- ABOUT SECTION START` -->
+  <section id="about" class="p-4 p-md-5 shadow mb-lg-5" style="background-color: #233554;">
+    <div class="container-flui">
+      <h1 class="text-center mb-3 heading text-uppercase" style="color: #ddf03e; position: relative;">About Me</h1>
+      <p class="text-white  text-center my-lg-5 ">Here you will find some of the personal and clients projects that I
+        created with each project containing its own
+        case study</p>
+      <div class="row ">
+        <div class="col-lg-8 px-lg-5 mb-sm-3 col-12" data-aos="zoom-out-right">
+          <h2 class="text-white text-center text-lg-start ">Get to know me!<h2>
+              <p class="lead my-3 text-white text-center text-lg-start">I'm a <strong>Frontend Web Developer</strong>
+                building the Front-end of
+                and Web Applications that leads to the success of the overall product. Check out some of my work in the
+                <strong>Projects</strong> section.
+              </p>
+              <p class="lead my-3 text-white text-center text-lg-start"> I also like sharing content related to the
+                stuff that I have learned over the years in <strong> Web Development</strong> so it can help other
+                people of the Dev Community. Feel free to Connect or Follow me on my <a
+                  href="https://www.linkedin.com/in/maqsood-ahmed-3baa75176/" style="color:#ddf03e">Linkedin</a> where I
+                post useful content related to Web Development and Programming</p>
+              <p class="lead my-3 text-white text-center text-lg-start">
+                I'm open to <strong>Job</strong> opportunities where I can contribute, learn and grow. If you have a
+                good opportunity that matches my skills and experience then don't hesitate to <strong>contact</strong>
+                me.</p>
+              <div class="d-flex d-lg-block justify-content-center">
+                <button type="button" class="btn border-0 w-50 fs-3"
+                  style="color: #0a192f; background-color: #ddf03e;">Contact</button>
+              </div>
+        </div>
+        <!-- This div is for skill progress bar. -->
+        <div class="col-lg-4 col-md-12 col-12 my-3" data-aos="flip-left">
+          <h2 class="text-white text-center text-lg-start">My Skills<h2>
+              <div class="rounded-1 p-3" style="background-color: #ccd6f6;">
+                <!--HTML  -->
+                <div class="fs-5">
+                  <span><img src="images/png/HTML.png" width="25" height="25" class="image-fluid mb-2 me-2" alt=""> HTML
+                    5</span>
+                  <div class="progress mb-2">
+                    <div class="progress px-3" role="progressbar"
+                      style="width: 90%; background-color: #020c1bb3; color: #ddf03e;" aria-valuenow="25"
+                      aria-valuemin="0" aria-valuemax="100">90%</div>
+                  </div>
+                </div>
+                <!--CSS  -->
+                <div class="fs-5">
+                  <span><img src="images/png/CSS.png" width="25" height="25" class="image-fluid mb-2 me-2" alt="">CSS
+                    3</span>
+                  <div class="progress mb-2">
+                    <div class="progress px-3" role="progressbar"
+                      style="width: 70%; background-color: #020c1bb3; color: #ddf03e;" aria-valuenow="25"
+                      aria-valuemin="0" aria-valuemax="100">70%</div>
+                  </div>
+                </div>
+                <!--JavaScript  -->
+                <div class="fs-5">
+                  <span><img src="images/png/JavaScript.png" width="25" height="25" class="image-fluid mb-2 me-2"
+                      alt="">javaScript</span>
+                  <div class="progress mb-2">
+                    <div class="progress px-3" role="progressbar"
+                      style="width: 60%; background-color: #020c1bb3; color: #ddf03e;" aria-valuenow="25"
+                      aria-valuemin="0" aria-valuemax="100">60%</div>
+                  </div>
+                </div>
+                <!--Python  -->
+                <div class="fs-5">
+                  <span><img src="images/png/Python.png" width="25" height="25" class="image-fluid mb-2 me-2"
+                      alt="">javaScript</span>
+                  <div class="progress mb-2">
+                    <div class="progress px-3" role="progressbar"
+                      style="width: 75%; background-color: #020c1bb3; color: #ddf03e;" aria-valuenow="25"
+                      aria-valuemin="0" aria-valuemax="100">75%</div>
+                  </div>
+                </div>
+                <!--My SQL  -->
+                <div class="fs-5">
+                  <span><img src="images/png/My SQL.png" width="25" height="25" class="image-fluid mb-2 me-2" alt="">My
+                    SQL</span>
+                  <div class="progress mb-2">
+                    <div class="progress px-3" role="progressbar"
+                      style="width: 50%; background-color: #020c1bb3; color: #ddf03e;" aria-valuenow="25"
+                      aria-valuemin="0" aria-valuemax="100">50%</div>
+                  </div>
+                </div>
+                <!--Adobe Illustrator -->
+                <div class="fs-5">
+                  <span><img src="images/png/AI.png" width="25" height="25" class="image-fluid mb-2 me-2" alt="">Adobe
+                    Illustrator</span>
+                  <div class="progress mb-2">
+                    <div class="progress px-3" role="progressbar"
+                      style="width: 50%; background-color: #020c1bb3; color: #ddf03e;" aria-valuenow="25"
+                      aria-valuemin="0" aria-valuemax="100">50%</div>
+                  </div>
+                </div>
+                <!--Adobe Photoshop -->
+                <div class="fs-5">
+                  <span><img src="images/png/Photoshop.png" width="25" height="25" class="image-fluid mb-2 me-2"
+                      alt="">Adobe Photoshop</span>
+                  <div class="progress mb-2">
+                    <div class="progress px-3" role="progressbar"
+                      style="width: 90%; background-color: #020c1bb3; color: #ddf03e;" aria-valuenow="25"
+                      aria-valuemin="0" aria-valuemax="100">90%</div>
+                  </div>
+                </div>
+
+
+              </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ABOUT SECTION END` -->
+  <!-- **************************************************** -->
+
+  <!-- **************************************************** -->
+  <!-- PROJECTS SECTION START` -->
+  <section id="project" class="p-md-1 shadow mb-lg-5" style="background-color: #233554;">
+    <div class="container px-4 py-2">
+      <h1 class="text-center mb-3 heading text-uppercase" style="color: #ddf03e; position: relative;">Projects</h1>
+      <p class="text-white  text-center my-lg-5 ">Here you will find some of the personal and clients projects that I
+        created with each project.</p>
+      <!-- first project -->
+      <div class="row d-flex flex-lg-row-reverse p-lg-3 my-lg-3"  data-aos="fade-right" style="background-color: #35455f;">
+        <div class="col-12 col-sm-12 col-lg-6 shadow my-3">
+          <img src="images/Projects images/w-1.png" class="d-block mx-lg-auto img-fluid " alt="my-photo" width="700"
+            height="700" loading="lazy">
+        </div>
+        <div class="col-12 col-sm-12 col-lg-6 d-flex align-items-lg-start my-3 justify-content-center flex-column">
+          <h2 class="text-white text-center text-lg-start text-uppercase">dream home project<h2>
+              <p class="lead my-2 text-white text-center text-lg-start">Dream Home project aim to help you find your
+                dream
+                home in Pakistan. Whether you are looking to rent or buy a home, our website offers a user-friendly
+                platform to search for properties that meet your specific needs and preferences.</p>
+              <div class="d-flex d-lg-block justify-content-center my-auto">
+                <a href="https://maqsood44.github.io/Dream-Home-Project/" target="_blank"></a><button type="button"
+                  class="btn border-0 w-50 fs-3" style="color: #0a192f; background-color: #ddf03e;">Visit</button></a>
+              </div>
+        </div>
+      </div>
+      <!-- Second Project -->
+      <div class="row d-flex flex-lg-row p-lg-3 my-lg-3" data-aos="fade-right" style="background-color: #35455f;">
+        <div class="col-12 col-sm-12 col-lg-6 shadow my-3">
+          <img src="images/Projects images/w-2.png" class="d-block mx-lg-auto img-fluid " alt="my-photo" width="700"
+            height="700" loading="lazy">
+        </div>
+        <div class="col-12 col-sm-12 col-lg-6 d-flex align-items-lg-start my-3 justify-content-center flex-column">
+          <h2 class="text-white text-center text-lg-start text-uppercase">my Portfolio<h2>
+              <p class="lead my-2 text-white text-center text-lg-start">Here, you will find a showcase of my skills and
+                expertise in developing innovative, user-friendly, and visually appealing websites</p>
+              <div class="d-flex d-lg-block justify-content-center">
+                <a href="#"></a><button type="button" class="btn border-0 w-50 fs-3"
+                  style="color: #0a192f; background-color: #ddf03e;">Visit</button></a>
+              </div>
+        </div>
+      </div>
+      <!-- third project -->
+      <div class="row d-flex flex-lg-row-reverse p-lg-3 my-lg-3"  data-aos="fade-right" style="background-color: #35455f;">
+        <div class="col-12 col-sm-12 col-lg-6 shadow my-3">
+          <img src="images/Projects images/w-3.png" class="d-block mx-lg-auto img-fluid " alt="my-photo" width="700"
+            height="700" loading="lazy">
+        </div>
+        <div class="col-12 col-sm-12 col-lg-6 d-flex align-items-lg-start my-3 justify-content-center flex-column">
+          <h2 class="text-white text-center text-lg-start text-uppercase">log in page<h2>
+              <p class="lead my-2 text-white text-center text-lg-start">This is an log in page which I created just to
+                prectice my HTML, CSS skill.</p>
+              <div class="d-flex d-lg-block justify-content-center">
+                <button type="button" class="btn border-0 w-50 fs-3"
+                  style="color: #0a192f; background-color: #ddf03e;">Visit</button>
+              </div>
+        </div>
+      </div>
+      <!-- f0rth project -->
+      <div class="row d-flex flex-lg-row p-lg-3 my-lg-3" data-aos="fade-right" style="background-color: #35455f;">
+        <div class="col-12 col-sm-12 col-lg-6 shadow my-3">
+          <img src="images/Projects images/w-4.png" class="d-block mx-lg-auto img-fluid " alt="my-photo" width="700"
+            height="700" loading="lazy">
+        </div>
+        <div class="col-12 col-sm-12 col-lg-6 d-flex align-items-lg-start my-3 justify-content-center flex-column">
+          <h2 class="text-white text-center text-lg-start text-uppercase">calculator<h2>
+              <p class="lead my-2 text-white text-center text-lg-start">This is fully fonctional calculator, which
+                created
+                by me with combination of HTML, CSS and JavaScript</p>
+              <div class="d-flex d-lg-block justify-content-center">
+                <button type="button" class="btn border-0 w-50 fs-3"
+                  style="color: #0a192f; background-color: #ddf03e;">Visit</button>
+              </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- PROJECTS SECTION END` -->
+  <!-- **************************************************** -->
+
+  <!-- **************************************************** -->
+  <!-- CONTACT US SECTION START` -->
+  <section id="contact" class="p-4 p-md-5 shadow mb-lg-3" style="background-color: #233554;">
+    <div class="container px-4 py-2 mx-auto">
+      <h1 class="text-center mb-3 heading text-uppercase" style="color: #ddf03e; position: relative;">contact me</h1>
+      <p class="text-white text-center my-lg-4 ">Feel free to Contact me by submitting the form below and I will get
+        back to you as soon as possible</p>
+
+      <form class="mx-auto shadow py-3 px-3" style="background-color: #35455f;">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-warning">Submit</button>
+      </form>
+  </section>
+  <!-- CONTACT US SECTION END` -->
+  <!-- **************************************************** -->
+
+  <!-- **************************************************** -->
+  <!-- FOOTER SECTION START` -->
+  <footer class="p-5 shadow py-4" style="background-color: #0a192f;">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-lg-6 ">
+          <h3 class="mb-3 text-uppercase" style="color: #ddf03e;">maqsood ahmad</h3>
+          <p class="" style="color: #e6f1ff;">A Frontend focused Web Developer building the Frontend of Websites and Web
+            Applications that leads to the success of the overall product</p>
+        </div>
+        <div class="col-12 col-sm-12 col-lg-6 d-lg-flex flex-column align-items-end ">
+          <h3 class="mb-3 text-uppercase " style="color: #ddf03e;">follow me on</h3>
+          <span><a href=""></a><img src="images/png/facebook.png" width="35" height="35"
+              class="image-fluid mb-2 me-2 rounded-circle text-lg-end" alt=""></a>
+            <a href=""></a><img src="images/png/WhatsApp.png" width="30" height="30"
+              class="image-fluid mb-2 me-2 rounded-circle" alt=""></a>
+            <a href=""></a><img src="images/png/instagram.png" width="30" height="30"
+              class="image-fluid mb-2 me-2 rounded-circle" alt=""></a>
+            <a href=""></a><img src="images/png/twitter.png" width="30" height="30"
+              class="image-fluid mb-2 me-2 rounded-circle" alt=""></a>
+            <a href=""></a><img src="images/png/linkdin.png" width="30" height="30"
+              class="image-fluid mb-2 me-2 rounded-circle" alt=""></a>
+          </span>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center pt-lg-5 pe-md-3 pb-lg-3 b-md-2 " style="color: #e6f1ff; border-top: px solid #a1a3a7;">&copy; All Rights Reserved:</div>
+        </div>
+      </div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+    <script>
+  AOS.init();
+</script>
+</body>
+
+</html>
